@@ -12,7 +12,7 @@ This is just a documentation of how the site was created and all aspects of the 
 The teacher side has a login page. The username can be the current name of the user and will show up on the post when created. 
 
 The PASSWORD is: "northP123" (case sensitive)
-*NOTE, since this was for a school project, the password isn't encrypted and is saved in the code itself
+*NOTE, since this was for a school project, the password isn't encrypted and is saved on the client side
  meaning anyone with basic coding knowledge can find it out.
  
  I plan on fixing this in the future to add more security to the site.
