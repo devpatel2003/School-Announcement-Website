@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Login</title>
+    <link rel="stylesheet" href="Login.css">
+    <script src="../main.js"></script>
+</head>
+    
+<body>
+
+    <header>
+        <h1>Student Announcement Options</h1>
+        <h3>North Park Secondary School</h3>
+    </header>
+    
+    <!-- Options for students -->
+    <div class="options">
+        <label for="Gender"><em>Gender</em>:</label><br>
+        <select id="studentGender">
+            <option value="Select">Select</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="Grade"><em>Grade</em>:</label><br>
+        <select id = "studentGrade">
+            <option value="Select">Select</option>
+            <option value="Grade 9">Grade 9</option>
+            <option value="Grade 10">Grade 10</option>
+            <option value="Grade 11">Grade 11</option>
+            <option value="Grade 12">Grade 12</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="Club"><em>Club</em>:</label><br>
+        <select name="ClubSelect" id ="studentClub">
+            <option value="Select">Select</option>
+            <option value="DECA">DECA</option>
+            <option value="HOSA">HOSA</option>
+            <option value="Robotics">Robotics</option>
+            <option value="Badminton Team">Badminton Team</option>
+            <option value="Volleyball Team">Volleyball Team</option>
+            <option value="Soccer Team">Soccer Team</option>
+            <option value="Math Club">Math Club</option>
+            <option value="Debate Club">Debate Club</option>
+            <option value="ZONTA">ZONTA</option>
+        </select>
+
+        <br>
+        <br>
+        <!-- Button leads to Student Viewer and runs getData function -->
+        <a href="StudentView.html">
+            <button onclick="getData()">Submit</button>
+        </a>
+ 
+    </div>
+    
+</body>
+    
+</html>
